@@ -36,7 +36,7 @@ From the text and the previous password it is evident we have to use RSA cipher.
 
 On calculating the private key and decoding the decrypted message we get: **9135 5700 6382 9648 7286 4198 1686 3054**
 
-![image](https://github.com/user-attachments/assets/a3c961e2-b85f-4ff7-80f8-418e62d00ccf)
+![image](https://github.com/user-attachments/assets/7fb539c8-6395-47d9-8a9c-b0ed5ccb3ed6)
 
 The password for level2 is: **9135 5700 6382 9648 7286 4198 1686 3054**
 
@@ -50,6 +50,6 @@ The number of elements in this array is 8. Also earlier in Level 2 there was a u
 This was not used earlier and on careful observation "Web.Club" has 8 characters. Thus if we use "Web.Club" as the key for the encryption and run a suitable decryption algorithm on : 9135 5700 6382 9648 7286 4198 1686 3054 we get :
 
 **iAmGr@@t**
-![image](https://github.com/user-attachments/assets/53173366-4b18-4aaa-900f-8e8ad36104a1)
+![image](https://github.com/user-attachments/assets/0ed35b0f-eaa9-42de-9ae0-713d41ce8133)
 
 Thus the password for level 3 is: iAmGr@@t
